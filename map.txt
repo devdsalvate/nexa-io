@@ -1,0 +1,66 @@
+nexa/
+│
+├── README.md
+├── .gitignore
+|
+├── public/                   
+│   ├── index.html
+│   ├── login.html
+│   ├── register.html
+│   ├── feed.html
+│   ├── profile.html
+│   │
+│   ├── css/
+│   │   ├── reset.css
+│   │   ├── style.css
+│   │   ├── layout.css
+│   │   └── components.css
+│   │
+│   ├── js/
+│   │   ├── main.js
+│   │   ├── api.js
+│   │   ├── feed.js
+│   │   ├── auth.js
+│   │   └── profile.js
+│   │
+│   └── assets/
+│       ├── images/
+│       ├── icons/
+│       └── logo/
+│
+├── backend/                  
+│   ├── config/
+│   │   └── database.php
+│   │
+│   ├── controllers/
+│   │   ├── AuthController.php
+│   │   ├── PostController.php
+│   │   ├── UserController.php
+│   │   └── CommentController.php
+│   │
+│   ├── models/
+│   │   ├── User.php
+│   │   ├── Post.php
+│   │   ├── Comment.php
+│   │   └── Follow.php
+│   │
+│   ├── routes/
+│   │   └── api.php
+│   │
+│   ├── middleware/
+│   │   └── auth.php
+│   │
+│   └── services/
+│       ├── AuthService.php
+│       └── UploadService.php
+│
+├── database/
+│   ├── schema.sql
+│   └── seed.sql
+│
+├── uploads/                 
+│   ├── posts/
+│   └── avatars/
+│
+└── tests/                    
+    └── api_tests.php
